@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Simpl-Note</title>
+    <style>
+        /* Reset margins and ensure the container is full-height */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden; /* Prevents the 'bounce' effect on mobile */
+            background-color: #000; /* Optional: matches dark mode if your notepad is dark */
+        }
 
+        /* Make the iframe fill every pixel of the screen */
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <iframe 
+        src="https://gist.githack.com/JamesHoldings/97f30b886b25b6348eca9a4c18d50e5a/raw/8b167f1583c3af5aa09ee2e22f59cd0f4e4c5c45/index.html?autoPlay=0" 
+        title="Simpl-Note"
+        allow="clipboard-read; clipboard-write">
+    </iframe>
+
+</body>
+</html>
